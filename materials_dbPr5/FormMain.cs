@@ -18,9 +18,10 @@ namespace materials_dbPr5
         }
 
         //Метод OnLoad вызывается при загрузке формы
+
         private void FormMain_Load(object sender, EventArgs e)
         {
-            base.OnLoad(e);
+            
 
             this.db = new MaterialsDbContext();
 

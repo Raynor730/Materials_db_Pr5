@@ -67,6 +67,8 @@
             dataGridViewSupplier.Location = new Point(10, 10);
             dataGridViewSupplier.Margin = new Padding(4);
             dataGridViewSupplier.Name = "dataGridViewSupplier";
+            dataGridViewSupplier.ReadOnly = true;
+            dataGridViewSupplier.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewSupplier.Size = new Size(1009, 540);
             dataGridViewSupplier.TabIndex = 1;
             // 
